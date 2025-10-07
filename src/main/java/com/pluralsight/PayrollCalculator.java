@@ -27,7 +27,7 @@ public class PayrollCalculator {
 
                 double grossPay = employeeInfo.getGrossPay();
 
-                System.out.printf("Employee ID: %s | Name: %s | Gross Pay: %s%n", employeeId, name, grossPay);
+                System.out.printf("Employee ID: %s | Name: %s | Gross Pay: $%s\n", employeeId, name, grossPay);
 
             }
             bufReader.close();
